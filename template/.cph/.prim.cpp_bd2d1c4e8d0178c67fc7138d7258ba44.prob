@@ -1,0 +1,1 @@
+{"name":"Local: prim","url":"/home/akitama/workspace/template/prim.cpp","tests":[{"id":1747116457610,"input":"4 5\n1 2 1\n1 3 2\n1 4 3\n2 3 2\n3 4 4","output":"6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/template/prim.cpp","group":"local","local":true}

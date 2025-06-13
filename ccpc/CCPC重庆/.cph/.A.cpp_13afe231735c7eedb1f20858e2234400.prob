@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/akitama/workspace/ccpc/CCPC重庆/A.cpp","tests":[{"id":1747659488039,"input":"3\n3\n1 2 3\n3\n1 1 1\n7\n7 6 5 4 3 2 1","output":"1\n0\n2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/ccpc/CCPC重庆/A.cpp","group":"local","local":true}

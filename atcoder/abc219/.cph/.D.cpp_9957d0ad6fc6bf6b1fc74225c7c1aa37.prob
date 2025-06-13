@@ -1,0 +1,1 @@
+{"name":"Local: D","url":"/home/akitama/workspace/atcoder/abc219/D.cpp","tests":[{"id":1745833631898,"input":"3\n5 6\n2 1\n3 4\n2 3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/atcoder/abc219/D.cpp","group":"local","local":true}

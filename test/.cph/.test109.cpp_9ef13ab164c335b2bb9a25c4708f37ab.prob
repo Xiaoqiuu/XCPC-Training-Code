@@ -1,0 +1,1 @@
+{"name":"Local: test109","url":"/home/akitama/workspace/test/test109.cpp","tests":[{"id":1747843365781,"input":"20","output":"1 2 4 8 16 5 10 20"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/test/test109.cpp","group":"local","local":true}

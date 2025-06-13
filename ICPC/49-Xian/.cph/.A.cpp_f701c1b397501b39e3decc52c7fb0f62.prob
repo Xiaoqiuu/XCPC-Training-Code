@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/akitama/workspace/ICPC/49-Xian/A.cpp","tests":[{"id":1744851735268,"input":"5\n1 1\n3 2\n3 3\n20 1\n8 8","output":"YES\nNO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/ICPC/49-Xian/A.cpp","group":"local","local":true}

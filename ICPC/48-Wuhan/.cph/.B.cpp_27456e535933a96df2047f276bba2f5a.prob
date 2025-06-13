@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"/home/akitama/workspace/ICPC/48-Wuhan/B.cpp","tests":[{"id":1742284776022,"input":"7\n1 9 1 9 8 1 0\n","output":"5"},{"id":1742285192628,"input":"10\n2 3 4 5 6 7 8 9 19 22","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/ICPC/48-Wuhan/B.cpp","group":"local","local":true}
