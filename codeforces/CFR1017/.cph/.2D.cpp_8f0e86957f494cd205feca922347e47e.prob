@@ -1,0 +1,1 @@
+{"name":"Local: 2D","url":"/home/akitama/workspace/codeforces/CFR1017/2D.cpp","tests":[{"id":1744635744812,"input":"5\nR\nRR\nLRLR\nLRLR\nLR\nLLLR\nLLLLLRL\nLLLLRRLL\nLLRLRLRRL\nLLLRLRRLLRRRL","output":"YES\nYES\nNO\nNO\nYES"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/CFR1017/2D.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Template copy","url":"/home/akitama/workspace/codeforces/CF2071/Template copy.cpp","tests":[{"id":1740753653830,"input":"3\n1\n4\n5","output":"-1\n2 4 1 3\n5 1 4 3 2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/CF2071/Template copy.cpp","group":"local","local":true}

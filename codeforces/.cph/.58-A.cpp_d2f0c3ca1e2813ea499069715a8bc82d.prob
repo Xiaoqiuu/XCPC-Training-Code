@@ -1,0 +1,1 @@
+{"name":"Local: 58-A","url":"/home/akitama/workspace/codeforces/58-A.cpp","tests":[{"id":1748878644715,"input":"heeeeheelllllooheello","output":"YES"},{"id":1748878658554,"input":"heolo","output":"NO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/58-A.cpp","group":"local","local":true}

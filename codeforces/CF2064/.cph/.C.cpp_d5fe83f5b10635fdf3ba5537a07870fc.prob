@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"/home/akitama/workspace/codeforces/CF2064/C.cpp","tests":[{"id":1739779767995,"input":"3\n6\n3 1 4 -1 -5 -9\n6\n-10 -3 -17 1 19 20\n1\n1","output":"23\n40\n1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/CF2064/C.cpp","group":"local","local":true}
