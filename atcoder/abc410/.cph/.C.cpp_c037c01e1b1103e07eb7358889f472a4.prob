@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"/home/akitama/workspace/atcoder/abc410/C.cpp","tests":[{"id":1749904063580,"input":"1000000 2\n1 1000000 999999\n3 1000000000","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/atcoder/abc410/C.cpp","group":"local","local":true}
