@@ -1,0 +1,21 @@
+CREATE TABLE TEACHER(
+    tno CHAR(8) PRIMARY KEY,
+    tname VARCHAR2(20) NOT NULL,
+    tsex VARCHAR2(6) ,
+    tsal NUMBER CHECK (tsal > 1800),
+    tdept CHAR(20)
+);
+
+INSERT INTO TEACHER VALUES ('T001', '张老师', '女', 3000, '计算机系');
+INSERT INTO TEACHER VALUES ('T002', '王老师', '男', 2800, '计算机系');
+INSERT INTO TEACHER VALUES ('T003', '李老师', NULL, NULL, '信息系');
+INSERT INTO TEACHER VALUES ('T004', '张老师', '男', 3500, '信息系');
+INSERT INTO TEACHER VALUES ('T005', '刘老师', '女', 2200, '信息系');
+
+-- UPDATE TEACHER SET tdept = '网络工程系' WHERE TEACHER.tdept = '信息系';
+UPDATE TEACHER SET tdept = '网络工程系' WHERE tdept = '信息系';
+UPDATE TEACHER SET tsal = 3300 WHERE TNAME = '王老师';
+
+DELETE FROM TEACHER WHERE TDEPT = '计算机系';
+
+DELETE FROM TEACHER;
