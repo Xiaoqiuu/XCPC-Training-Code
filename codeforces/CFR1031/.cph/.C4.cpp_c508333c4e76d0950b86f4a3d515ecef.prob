@@ -1,0 +1,1 @@
+{"name":"Local: C4","url":"/home/akitama/workspace/codeforces/CFR1031/C4.cpp","tests":[{"id":1753004069179,"input":"3\n2 3 1\n#.#\ng.g\n2 3 2\n#.#\ng.g\n3 4 2\n.gg.\ng..#\ng##.\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/CFR1031/C4.cpp","group":"local","local":true}
