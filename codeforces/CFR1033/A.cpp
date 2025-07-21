@@ -24,7 +24,7 @@ using ull = unsigned long long int;
 #define akitama return 0
 /*
 Author: Akitama
-Date: 2025-07-22 00:29:05
+Date: 2025-07-22 02:04:11
 Akitama Default Contest Template V2.0
 */
 
@@ -37,32 +37,25 @@ Akitama Default Contest Template V2.0
 #define l(x) x << 1
 #define r(x) x << 1 | 1
 
-constexpr int N = 1e4 + 7;
+constexpr int N = 1e5 + 7;
 constexpr int MOD = 1e9 + 7;
 constexpr int INF = 0X3f3f3f3f;
 
-int a[N][N];
-int dp[N][N];
-
 void solve() {
-    int n; cin >> n;
-    for (int i = 1; i <= n; ++ i) {
-        for (int j = 1; j <= i; ++ j) {
-            cin >> a[i][j];
-        }
-    }
-    // dp[1][1] = a[1][1];
-    for (int i = n; i >= 1; -- i) {
-        for (int j = 1; j <= i; ++ j) {
-            dp[i][j] = a[i][j] + max(dp[i+1][j], dp[i+1][j+1]);
-        }
-    }
-    cout << dp[1][1] << endl;
+    int a1, b1, a2, b2, a3, b3;
+    cin >> a1 >> b1 >> a2 >> b2 >> a3 >> b3;
+    if (a1 == a2 && a2 == a3) {
+        if (b1 + b2 + b3 == a1 + a2 + a3) cout << "YES\n";
+        else cout << "NO\n";
+        return;
+    } else if (b2 == b3 && a1 == a2 + a3) {
+        cout << "YES\n";
+    } 
 }
 
 signed main() {
     cin.tie(nullptr)->ios::sync_with_stdio(false);
-    int _ = 1; // cin >> _;
+    int _ = 1; cin >> _;
     while (_--){
         solve();
     }
