@@ -1,0 +1,1 @@
+{"name":"Local: 20-C","url":"/home/akitama/workspace/codeforces/20-C.cpp","tests":[{"id":1758866291214,"input":"5 6\n1 2 2\n2 5 5\n2 3 4\n1 4 1\n4 3 3\n3 5 1","output":"1 4 3 5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/20-C.cpp","group":"local","local":true}
