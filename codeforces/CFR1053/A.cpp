@@ -49,19 +49,17 @@ void solve() {
         t += to_string(i);
         s += t;
     }
-    
-    string f;
     for (int i = 0; i < m; ++ i) {
         int x; cin >> x;
-        f += to_string(x);
+        t += to_string(x);
     }
-    int idx = 0;
 
-    while ((idx = s.find(f, idx)) != string::npos) {
-        ans++;
-        idx += f.length();
+    int len = t.length();
+
+    for (int i = 0; i < (int)s.size() - len; ++ i) {
+        s.substr(i, len - 1)
     }
-    cout << ans << endl;
+    
 }
 
 signed main() {
