@@ -1,0 +1,1 @@
+{"name":"Local: C","url":"/home/akitama/workspace/codeforces/EDU183/C.cpp","tests":[{"id":1762531150133,"input":"5\n5\nbbbab\n6\nbbaaba\n4\naaaa\n12\naabbaaabbaab\n5\naabaa","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/EDU183/C.cpp","group":"local","local":true}
