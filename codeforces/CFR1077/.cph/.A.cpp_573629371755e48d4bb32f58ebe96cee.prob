@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"/home/akitama/workspace/codeforces/CFR1077/A.cpp","tests":[{"id":1770904303227,"input":"4\n8\n3\n6\n7","output":"1 2\n2 3 1\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/CFR1077/A.cpp","group":"local","local":true}
