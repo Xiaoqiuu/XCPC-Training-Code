@@ -1,11 +1,3 @@
-/*
- * @Author: Xiaoqiuu xiaoqiuuu@gmail.com
- * @Date: 2026-01-13 15:35:54
- * @LastEditors: Xiaoqiuu xiaoqiuuu@gmail.com
- * @LastEditTime: 2026-01-18 17:37:35
- * @FilePath: /workspace/mihoyo/virtual.cpp
- * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
- */
 #include <iostream>
 
 using std::cin;
