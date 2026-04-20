@@ -1,0 +1,1 @@
+{"name":"Local: 20507","url":"/home/akitama/workspace/lanqiao/20507.cpp","tests":[{"id":1775816260816,"input":"6 3\n6 7 3 4 9 12\n2 3 5","output":"2 "},{"id":1775816650057,"input":"2 1\n4 5\n6","output":"-1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/lanqiao/20507.cpp","group":"local","local":true}
