@@ -2,7 +2,7 @@
  * @Author: Xiaoqiuu/Akitama
  * @Date: 2026-04-29 16:23:50
  * @LastEditors: Xiaoqiuu/Akitama
- * @LastEditTime: 2026-04-29 16:48:00
+ * @LastEditTime: 2026-05-04 15:54:57
  * @FilePath: /workspace/test/test129.cpp
  * @Description: XCPC | 408 | Unity | Agents
  */
@@ -59,14 +59,26 @@ void solve() {
     // bitset<32> bb = static_cast<unsigned short>(b);
     // cout << bb << endl;
 
-    short int a = SHRT_MAX;
-    bitset<16> ba = a;
+    // short int a = SHRT_MAX;
+    // bitset<16> ba = a;
+    // cout << "sizeof a : " << sizeof(a) << ", val of a : " << a << endl;
+    // cout << ba << endl;
+    // int b = a;
+    // cout << "sizeof b : " << sizeof(b) << ", val of b : " << a << endl;
+    // bitset<32> bb = b;
+    // cout << bb << endl;
+
+    float a = 0x1765.6adfP0;
+    uint64_t bits;
+    memcpy(&bits, &a, sizeof(a));
+
+    bitset<32> ba = bits;
     cout << "sizeof a : " << sizeof(a) << ", val of a : " << a << endl;
     cout << ba << endl;
-    int b = a;
-    cout << "sizeof b : " << sizeof(b) << ", val of b : " << a << endl;
-    bitset<32> bb = b;
-    cout << bb << endl;
+//     int b = a;
+//     cout << "sizeof b : " << sizeof(b) << ", val of b : " << a << endl;
+//     bitset<32> bb = b;
+//     cout << bb << endl;
 }
 
 signed main() {
