@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"/home/akitama/workspace/codeforces/CFR1100/B.cpp","tests":[{"id":1779547950708,"input":"4\n1\n2\n1\n1\n1\n2\n3\n1 2 3\n4 5 6\n4\n2 3 6 7\n1 4 5 8\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/akitama/workspace/codeforces/CFR1100/B.cpp","group":"local","local":true}
