@@ -1,11 +1,3 @@
-/*
- * @Author: Xiaoqiuu/Akitama
- * @Date: 2026-05-24 14:02:27
- * @LastEditors: Xiaoqiuu/Akitama
- * @LastEditTime: 2026-05-24 14:02:33
- * @FilePath: /workspace/codeforces/CFR1100/C-yanami.cpp
- * @Description: XCPC | 408 | Unity | Agents
- */
 #include <bits/stdc++.h>
 
 using i64 = long long;
