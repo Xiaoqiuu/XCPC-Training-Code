@@ -1,3 +1,11 @@
+/*
+ * @Author: Xiaoqiuu/Akitama
+ * @Date: 2026-08-02 07:20:48
+ * @LastEditors: Xiaoqiuu/Akitama
+ * @LastEditTime: 2026-08-08 17:11:04
+ * @FilePath: /workspace/408/WD_DS/3/SqQueue.c
+ * @Description: XCPC | 408 | Unity | Agents
+ */
 #include <stdio.h>
 #include <stdbool.h>
 #include <stdlib.h>
@@ -17,6 +25,10 @@ bool QueueEmpty(SqQueue Q) {
     return Q->front == Q->rear;
 }
 
+bool QueueFull(SqQueue Q) {
+    return (Q->rear + 1) % MaxSize == Q->front; // 队列满的条件是 rear 指针指向 MaxSize 时，front 指针指向 0
+}
+
 bool EnQueue(SqQueue Q, int x) {
     if (Q->rear == MaxSize) {
         return false;
@@ -27,13 +39,15 @@ bool EnQueue(SqQueue Q, int x) {
 
 bool DeQueue(SqQueue Q, int *x) {
     if (QueueEmpty(Q)) return false;
-    *x = Q->data[Q->front++];
+    *x = Q->data[Q->front];
+    Q->front = (Q->front + 1) % MaxSize; // 队列头指针向后移动一位
     return true;
 }
 
-int GetHead(SqQueue Q) {
-    if (QueueEmpty(Q)) return -1;
-    return Q->data[Q->front];
+bool GetHead(SqQueue Q, int *x) {
+    if (QueueEmpty(Q)) return false;
+    *x = Q->data[Q->front];
+    return true;
 }
 
 signed main() {
